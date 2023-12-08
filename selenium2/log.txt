@@ -1,0 +1,12 @@
+2023-12-08 20:09:14 INFO ====== WebDriver manager ======
+2023-12-08 20:09:16 INFO Get LATEST chromedriver version for google-chrome
+2023-12-08 20:09:17 INFO Get LATEST chromedriver version for google-chrome
+2023-12-08 20:09:17 INFO Driver [C:\Users\Андрей\.wdm\drivers\chromedriver\win64\119.0.6045.105\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-08 20:09:19 INFO Test starting
+2023-12-08 20:09:25 INFO Send Petrr to element //*[@id="login"]/div[1]/label/input
+2023-12-08 20:09:25 INFO Send fa258a35d9 to element //*[@id="login"]/div[2]/label/input
+2023-12-08 20:09:25 INFO Click login button
+2023-12-08 20:09:28 INFO Click contact button
+2023-12-08 20:09:28 INFO Send Petrr to element //*[@id="contact"]/div[1]/label/input
+2023-12-08 20:09:29 INFO Send test@ya.ru to element //*[@id="contact"]/div[2]/label/input
+2023-12-08 20:09:29 INFO Click Contact US button
