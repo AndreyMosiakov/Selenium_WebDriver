@@ -2,7 +2,7 @@ import pytest
 from module import Site
 import yaml
 
-with open("./testdata.yaml") as f:
+with open("testdata.yaml") as f:
     testdata = yaml.safe_load(f)
 
 @pytest.fixture()
