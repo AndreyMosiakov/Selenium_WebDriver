@@ -1,0 +1,15 @@
+
+xpath:
+    LOCATOR_LOGIN_FIELD: //*[@id="login"]/div[1]/label/input
+    LOCATOR_PASS_FIELD: //*[@id="login"]/div[2]/label/input
+    LOCATOR_ERR_FIELD: //*[@id="app"]/main/div/div/div[2]/h2
+    LOCATOR_TITLE_FIELD: //*[@id="app"]/main/div/div[1]/h1
+    LOCATOR_CREATE_POST_BTN: //*[@id="create-btn"]
+    LOCATOR_NEW_POST_FIELD: //*[@id="create-item"]/div/div/div[1]/div/label/input
+    LOCATOR_SAVE_POST_BTN: //*[@id="create-item"]/div/div/div[7]/div/button/span
+    LOCATOR_CONTACT_BTN: //*[@id="app"]/main/nav/ul/li[2]/a
+    LOCATOR_NAME_FIELD": //*[@id="contact"]/div[1]/label/input
+    LOCATOR_EMAIL_FIELD: //*[@id="contact"]/div[2]/label/input
+    LOCATOR_CONTACT_US_BTN: //*[@id="contact"]/div[4]/button
+css:
+    LOCATOR_LOGIN_BTN: button
