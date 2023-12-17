@@ -73,6 +73,10 @@ class OperationsHelper(BasePage):
     def enter_pass(self, word):
         self.enter_text_into_field(TestSearchLocators.ids["LOCATOR_PASS_FIELD"], word, description="pass form")
 
+    def enter_description(self, word):
+        self.enter_text_into_field(TestSearchLocators.ids["LOCATOR_DESCRIPTION_FIELD"], word,
+                                   description="description form")
+
     def create_new_post(self, word):
         self.enter_text_into_field(TestSearchLocators.ids["LOCATOR_NEW_POST_FIELD"], word, description="new post form")
 
@@ -104,3 +108,15 @@ class OperationsHelper(BasePage):
 
     def get_title_text(self):
         return self.get_text_from_element(TestSearchLocators.ids["LOCATOR_TITLE_FIELD"], description="title field")
+
+    def get_profile_text(self):
+        return self.get_text_from_element(TestSearchLocators.ids["LOCATOR_USER_PROFILE_NAME"],
+                                          description="user profile name")
+
+    def get_user_title_text(self):
+        return self.get_text_from_element(TestSearchLocators.ids["LOCATOR_USER_TITLE_FIELD"],
+                                          description="user title text")
+
+    def get_user_description_text(self):
+        return self.get_text_from_element(TestSearchLocators.ids["LOCATOR_DESCRIPTION_FIELD"],
+                                          description="user description text")
